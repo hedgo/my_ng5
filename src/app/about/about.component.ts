@@ -14,6 +14,8 @@ export class AboutComponent implements OnInit {
 
   goals: any;
 
+  /**/
+
   constructor(private route: ActivatedRoute, private router: Router, private _data: DataService) {
     this.route.params.subscribe(res => console.log(res.id));
     /*AO wypisuje na konsoli jaki parametr przyszedl ze sciezki*/
